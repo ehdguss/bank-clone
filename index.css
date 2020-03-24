@@ -1,0 +1,78 @@
+@import "reset.css";
+
+header .top {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header .top h1 {
+    float: left;
+    padding: 33px;
+}
+
+header .top h1 a:first-child {
+    margin-right: 28px;
+}
+
+header .top .menu {
+    float: right;
+}
+
+header .control {
+    padding: 31px 0;
+    float: left;
+    padding-right: 24px;
+}
+
+header .control h2 {
+    float: left;
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+    line-height: 36px;
+    padding-right: 9px;
+}
+header .control ul {
+    float: left;
+}
+header .control li {
+    float: left;
+    padding: 0 4px;
+}
+
+header .control li button {
+    font-size: 14px;
+    color: #3190ce;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+}
+
+header .control li .btn {
+    width:90px;
+}
+
+header .sns {
+    float:left;
+    position: relative;
+    padding-top: 27px;
+    padding-left: 7px;
+}
+
+header .sns:before { content: ""; position: absolute;
+    left:0; top: 35px; width: 1px; height: 30px; background: #e3e3e3;}
+
+.sns li {
+    float:left;
+    padding-left: 12px;
+}
+
+.sns li img {
+    width: 46px;
+}
+
+.hide {
+    display: none;
+}
